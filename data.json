@@ -1,6 +1,8 @@
 {
   "ropes": {
     "ROPE001": {
+      "debugFlag": "BACKEND_UPDATED_123",
+
       "model": "Namah 8.4 Dynamic",
       "diameter": 8.4,
       "length": 60,
