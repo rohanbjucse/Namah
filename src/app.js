@@ -26,10 +26,7 @@ app.use(express.json());
   }
 };*/
 
-const dataFilePath =
-  process.env.NODE_ENV === "production"
-    ? "/var/data/data.json"
-    : path.join(__dirname, "../data.json");
+const dataFilePath = path.join(__dirname, "../data.json");
 
 
 function loadData() {
