@@ -3,6 +3,10 @@
     "ROPE001": {
       "model": "Namah 8.4 Dynamic",
       "diameter": 8.4,
+      "length": 60,
+      "manufactureDate": "2025-12-18",
+      "batchNumber": "NAM-09-DEC25",
+      "uiaaFallsRating": 7,
       "status": "ACTIVE",
       "inspections": [
         {
@@ -15,7 +19,11 @@
     },
     "ROPE002": {
       "model": "Namah 10.2 Semi-Static",
-      "diameter": 10.2,
+      "diameter": 10.2,    
+      "length": 75,
+      "manufactureDate": "2024-09-27",
+      "batchNumber": "NAM-03-SEP24",
+      "uiaaFallsRating": 10,
       "status": "INSPECTION_DUE",
       "inspections": [
         {
@@ -35,6 +43,10 @@
     "ROPE003": {
       "model": "Namah 9.8 Dynamic",
       "diameter": 9.8,
+      "length": 70,
+      "manufactureDate": "2024-08-15",
+      "batchNumber": "NAM-84-AUG24",
+      "uiaaFallsRating": 9,
       "status": "RETIRED",
       "inspections": [
         {
