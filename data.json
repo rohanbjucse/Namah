@@ -1,0 +1,36 @@
+{
+  "ropes": {
+    "ROPE001": {
+      "model": "Namah 8.4 Dynamic",
+      "diameter": 8.4,
+      "status": "ACTIVE",
+      "inspections": [
+        {
+          "result": "PASS",
+          "remarks": "No visible damage",
+          "date": "2026-01-21T06:16:42.731Z"
+        }
+      ],
+      "falls": []
+    },
+    "ROPE002": {
+      "model": "Namah 10.2 Semi-Static",
+      "diameter": 10.2,
+      "status": "INSPECTION_DUE",
+      "inspections": [
+        {
+          "result": "PASS",
+          "remarks": "No visible damage",
+          "date": "2026-01-21T06:17:41.551Z"
+        }
+      ],
+      "falls": [
+        {
+          "type": "LEAD",
+          "notes": "Leader fell above bolt",
+          "date": "2026-01-21T06:15:24.565Z"
+        }
+      ]
+    }
+  }
+}
