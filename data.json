@@ -31,6 +31,19 @@
           "date": "2026-01-21T06:15:24.565Z"
         }
       ]
+    },
+    "ROPE003": {
+      "model": "Namah 9.8 Dynamic",
+      "diameter": 9.8,
+      "status": "RETIRED",
+      "inspections": [
+        {
+          "result": "FAIL",
+          "remarks": "SHEATH damage",
+          "date": "2026-01-21T06:16:42.731Z"
+        }
+      ],
+      "falls": []
     }
   }
 }
