@@ -314,6 +314,7 @@ app.get("/rope/:nfcUid/overview", (req, res) => {
     length: rope.length,
     manufactureDate: rope.manufactureDate,
     batchNumber: rope.batchNumber,
+    photoUrl: rope.photoUrl,
     uiaaFallsRating: rope.uiaaFallsRating,
     totalFalls: rope.falls.length,
     lastInspection: lastInspection

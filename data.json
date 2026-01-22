@@ -8,6 +8,7 @@
       "length": 60,
       "manufactureDate": "2025-12-18",
       "batchNumber": "NAM-09-DEC25",
+      "photoUrl": "https://drive.google.com/file/d/1B2Tv7SSWTDHP4erYHPmPLK8dc1lGx8-t/view?usp=drive_link",
       "uiaaFallsRating": 6,
       "status": "ACTIVE",
       "inspections": [
@@ -25,6 +26,7 @@
       "length": 75,
       "manufactureDate": "2024-09-27",
       "batchNumber": "NAM-03-SEP24",
+      "photoUrl": "https://drive.google.com/file/d/185rSEAhT9nddEHCWKKcNfS0-XECGoUuk/view?usp=drive_link",
       "uiaaFallsRating": 10,
       "status": "INSPECTION_DUE",
       "inspections": [
@@ -48,6 +50,7 @@
       "length": 70,
       "manufactureDate": "2024-08-15",
       "batchNumber": "NAM-84-AUG24",
+      "photoUrl": "https://drive.google.com/file/d/1rmy63u2oQcsIVCCMT7leMoT-xEzUmURR/view?usp=drive_link",
       "uiaaFallsRating": 9,
       "status": "RETIRED",
       "inspections": [
