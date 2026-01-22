@@ -86,12 +86,17 @@ app.get("/rope/:nfcUid", (req, res) => {
     });
   }
 
-  res.json({
+ /* res.json({
     nfcUid: nfcUid,
     model: rope.model,
     diameter: rope.diameter,
-    status: rope.status
-  });
+    status: rope.status,
+    manufactureDate: rope.manufactureDate,
+    batchNumber: rope.batchNumber,
+    uiaaFallsRating: rope.uiaaFallsRating
+  });*/
+  res.json(rope);
+
 });
 
 app.post("/rope/:nfcUid/status", (req, res) => {
@@ -133,9 +138,12 @@ if (!ALLOWED_STATUSES.includes(newStatus)) {
     message: "Rope status updated",
     rope: {
       nfcUid: nfcUid,
-      model: rope.model,
-      diameter: rope.diameter,
-      status: rope.status
+    model: rope.model,
+    diameter: rope.diameter,
+    status: rope.status,
+    manufactureDate: rope.manufactureDate,
+    batchNumber: rope.batchNumber,
+    uiaaFallsRating: rope.uiaaFallsRating
     }
   });
 });
@@ -303,6 +311,9 @@ app.get("/rope/:nfcUid/overview", (req, res) => {
     model: rope.model,
     diameter: rope.diameter,
     status: rope.status,
+    manufactureDate: rope.manufactureDate,
+    batchNumber: rope.batchNumber,
+    uiaaFallsRating: rope.uiaaFallsRating,
     totalFalls: rope.falls.length,
     lastInspection: lastInspection
   });
